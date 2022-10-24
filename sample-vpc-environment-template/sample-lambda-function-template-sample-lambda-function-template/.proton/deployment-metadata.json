@@ -1,0 +1,11 @@
+{
+  "deploymentId" : "3914ceef-cd60-4987-a176-0e790601b961",
+  "isResourceDeleted" : false,
+  "resourceMetadata" : {
+    "arn" : "arn:aws:proton:us-east-1:990828982247:service/sample-lambda-function-template/service-instance/sample-lambda-function-template",
+    "templateArn" : "arn:aws:proton:us-east-1:990828982247:service-template/sample-lambda-function-template",
+    "templateMajorVersion" : "1",
+    "templateMinorVersion" : "0",
+    "environmentArn" : "arn:aws:proton:us-east-1:990828982247:environment/sample-vpc-environment-template"
+  }
+}
