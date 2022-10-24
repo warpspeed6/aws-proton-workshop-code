@@ -2,7 +2,7 @@
 This file is managed by AWS Proton. Any changes made directly to this file will be overwritten the next time AWS Proton performs an update.
 
 To manage this resource, see AWS Proton Resource: arn:aws:proton:us-east-1:990828982247:environment/sample-vpc-environment-template
- 
+
 If the resource is no longer accessible within AWS Proton, it may have been deleted and may require manual cleanup.
 */
 
@@ -14,8 +14,7 @@ module "vpc" {
 
   azs             = ["${var.aws_region}b"]
   private_subnets = ["10.0.1.0/24"]
-  public_subnets  = ["10.0.101.0/24"]
-  
+
   enable_nat_gateway                             = true
   enable_vpn_gateway                             = false
   enable_ipv6                                    = true
